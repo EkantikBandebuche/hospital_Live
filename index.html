@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QualiCare Solutions</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?technology,nature') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .about-img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .service-card {
+            height: 100%; 
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.3s ease-in-out;
+        background-color: rgb(119 227 224 / 62%);
+            
+        }
+
+        .service-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-body {
+            flex-grow: 1; 
+        }
+    
+        .card-text {
+            min-height: 100px; 
+        }
+    </style>
+</head>
+
+<body style="background: url('images/background2.jpg') no-repeat center center/cover;">
+
+    <!-- Navbar (Already Done) -->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/Qualilogo.png" alt="QualiCare Logo" width="50" height="50" class="d-inline-block align-text-top">
+                QUALICARE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="margin-bottom: 100px;">
+        <div class="container">
+            <h1 class="text-dark">Welcome to QualiCare Healthcare Accreditation Solution</h1>
+            <p class="text-dark">"Your partner in NABH Accreditation & Excellence"</p>
+            <p class="lead text-dark">We provide amazing solutions just for you.</p>
+            <a href="#services" class="btn btn-info btn-lg">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5" style="margin-bottom: 100px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Established with a vision to revolutionize healthcare quality, QualiCare Healthcare Accreditation
+                        Solution is a trusted consultancy dedicated to helping hospitals and healthcare facilities
+                        achieve NABH accreditation. Our team of experts specializes in hospital quality management,
+                        regulatory compliance, and patient safety protocols.</p>
+                    <p>With extensive experience in healthcare accreditation, we have successfully guided numerous
+                        hospitals across Maharashtra, Hyderabad, and beyond in their NABH journey. Our tailored
+                        solutions, comprehensive documentation support, and hands-on training empower healthcare
+                        organizations to maintain high-quality standards and operational excellence.</p>
+                    <p>We believe that NABH accreditation is not just about certification—it’s about building a culture
+                        of safety, efficiency, and trust in healthcare. At QualiCare, we are committed to making this
+                        process simpler, faster, and more effective for hospitals of all sizes.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/aboutus.jpg" alt="About Us" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5" style="background-color: rgba(79, 209, 169, 0); margin-bottom: 100px;">
+
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 my-3">
+                    <div class="card service-card h-100 d-flex flex-column">
+                        <img src="https://source.unsplash.com/400x250/?marketing,digital" class="card-img-top" alt="">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">NABH Accreditation Consultancy</h5>
+                            <ul class="card-text flex-grow-1">
+                                <li>Gap Assessment</li>
+                                <li>Documentation Support</li>
+                                <li>Process Implementation</li>
+                                <li>Mock Audits & Internal Audits</li>
+                                <li>Application & Liaisoning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 my-3">
+                    <div class="card service-card h-100 d-flex flex-column">
+                        <img src="https://source.unsplash.com/400x250/?marketing,digital" class="card-img-top" alt="">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">NABH Training & Capacity Building</h5>
+                            <ul class="card-text flex-grow-1">
+                                <li>Staff Training Programs</li>
+                                <li>Internal Auditor Training</li>
+                                <li>Fire Safety & Disaster Management Training</li>
+                                <li>Patient Safety & Quality Training</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 my-3">
+                    <div class="card service-card h-100 d-flex flex-column">
+                        <img src="https://source.unsplash.com/400x250/?consulting,business" class="card-img-top" alt="">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Hospital Quality Improvement Services</h5>
+                            <ul class="card-text flex-grow-1">
+                                <li>Patient Safety & Risk Management</li>
+                                <li>Clinical & Non-Clinical Process Improvement</li>
+                                <li>Infection Control & Biomedical Waste Management</li>
+                                <li>Medical Record Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 my-3">
+                    <div class="card service-card h-100 d-flex flex-column">
+                        <img src="https://source.unsplash.com/400x250/?consulting,business" class="card-img-top" alt="">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Hospital Legal & Compliance Advisory</h5>
+                            <ul class="card-text flex-grow-1">
+                                <li>Regulatory Compliance</li>
+                                <li>Biomedical Waste Management Compliance</li>
+                                <li>Fire Safety & Infrastructure Audit</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 my-3">
+                    <div class="card service-card h-100 d-flex flex-column">
+                        <img src="https://source.unsplash.com/400x250/?consulting,business" class= "card-img-top" alt="" >
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Hospital Branding & Marketing</h5>
+                            <ul class="card-text flex-grow-1">
+                                <li>NABH Accreditation Awareness & Marketing</li>
+                                <li>Hospital Branding & Patient Engagement Strategies</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 " style="background-color: rgba(52, 76, 100, 0.5);">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <!-- Contact Information -->
+            <div class="col-md-6">
+                <h5>Email</h5>
+                <p><a href="mailto:Qualicareaccreditation@gmail.com">Qualicareaccreditation@gmail.com</a></p>
+
+                <h5>Phone</h5>
+                <p><a href="tel:+918308166926">+91 8308166926</a></p>
+
+                <h5>Address</h5>
+                <p>Qtr.No 1/10 V.H.B Colony, Raghuji Nagar, Nagpur 440024</p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-3">
+    <p>&copy; 2025 MySite. All Rights Reserved.</p>
+</footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
